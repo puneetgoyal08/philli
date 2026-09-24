@@ -126,5 +126,3 @@ dayButtons.forEach((button, index) => {
     activateDay(dayButtons[nextIndex].dataset.day);
   });
 });
-
-document.querySelector('[data-print]')?.addEventListener('click', () => window.print());
