@@ -1,3 +1,102 @@
+// Letter entrance — swap her name and the note here.
+const letterCopy = {
+  addressee: "Nidhi",
+  forLine: "for Nidhi",
+  when: "24 Dec — 2 Jan",
+  lines: [
+    "Nidhi, I kept these days for you.",
+    "Christmas to the new year, unhurried, just us.",
+    "Palawan is the chapter. Read it with me.",
+  ],
+};
+
+const LETTER_SEEN_KEY = "palawan-letter-read";
+
+function initLetter() {
+  const root = document.querySelector("[data-letter]");
+  if (!root) return;
+
+  const nameEl = root.querySelector("[data-letter-name]");
+  const forEl = root.querySelector("[data-letter-for]");
+  const whenEl = root.querySelector("[data-letter-when]");
+  const noteEl = root.querySelector("[data-letter-note]");
+  const openBtn = root.querySelector("[data-letter-open]");
+  const readBtn = root.querySelector("[data-letter-read]");
+  const reduceMotion = document.documentElement.classList.contains("letter-reduced");
+
+  if (nameEl) nameEl.textContent = letterCopy.addressee;
+  if (forEl) forEl.textContent = letterCopy.forLine;
+  if (whenEl) whenEl.textContent = letterCopy.when;
+  if (openBtn) openBtn.setAttribute("aria-label", "Open the letter to " + letterCopy.addressee);
+
+  if (noteEl && readBtn) {
+    letterCopy.lines.forEach((line) => {
+      const p = document.createElement("p");
+      p.textContent = line;
+      noteEl.insertBefore(p, readBtn);
+    });
+  }
+
+  let seen = false;
+  try {
+    seen = sessionStorage.getItem(LETTER_SEEN_KEY) === "1";
+  } catch (err) {
+    seen = false;
+  }
+
+  if (seen) {
+    root.hidden = true;
+    document.documentElement.classList.add("letter-seen");
+    document.documentElement.classList.remove("letter-holding", "letter-reduced");
+    return;
+  }
+
+  let finished = false;
+  function finish() {
+    if (finished) return;
+    finished = true;
+    root.hidden = true;
+    document.documentElement.classList.remove("letter-holding");
+    document.documentElement.classList.add("letter-dismissed");
+  }
+
+  function dismiss() {
+    try {
+      sessionStorage.setItem(LETTER_SEEN_KEY, "1");
+    } catch (err) {}
+    if (reduceMotion) {
+      finish();
+      return;
+    }
+    root.classList.add("is-leaving");
+    root.addEventListener("transitionend", (event) => {
+      if (event.target !== root || event.propertyName !== "opacity") return;
+      finish();
+    });
+    window.setTimeout(finish, 1000);
+  }
+
+  function openLetter() {
+    if (root.classList.contains("is-open")) return;
+    root.classList.add("is-open");
+    if (noteEl) noteEl.removeAttribute("aria-hidden");
+    if (readBtn) readBtn.tabIndex = 0;
+    if (openBtn) openBtn.setAttribute("aria-expanded", "true");
+    if (readBtn) readBtn.focus({ preventScroll: true });
+  }
+
+  if (reduceMotion) openLetter();
+
+  openBtn?.addEventListener("click", openLetter);
+  readBtn?.addEventListener("click", dismiss);
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || root.hidden || !root.classList.contains("is-open")) return;
+    dismiss();
+  });
+}
+
+initLetter();
+
 const dayButtons = [...document.querySelectorAll('[data-day]')];
 const dayPanels = [...document.querySelectorAll('[data-panel]')];
 

@@ -597,6 +597,128 @@ substantial buffer.
 
 ------------------------------------------------------------------------
 
+# 11A. OPTION A --- WHAT TO BUY AND BRING HOME
+
+Home is India. Option A flies Busuanga (Coron) through Manila to
+Bengaluru. Traveler reports below are personal write-ups for what to look
+for. Official notes are only watch-outs. This is not a shop reservation,
+a current price, or a promise a counter is open. Pages accessed
+25 September 2026.
+
+## Traveler reports
+
+Not **Verified**. A price on a blog is that author’s report. Figures are
+omitted here.
+
+**Food.**
+
+- **Coron.** Leslie Green and Justin Taylor, [Well Worth It: Coron](https://lifewellworthit.substack.com/p/well-worth-it-coron-philippines)
+  (23 February 2025): they bought a small bag of garlic cashews at Melb’s
+  Cashew Factory and liked the honey-cashew brittle.
+- **Coron.** Lakwatserong Hampaslupa, trip 14–18 August 2024,
+  [The Island of Legends](https://www.lakwatseronghampaslupa.com/post/coron)
+  (posted 14 December 2025, updated 22 December 2025): visited Palawan
+  Cashew Company in Sitio Dipaculao, about 3 km from Coron town, and wrote
+  that processed nuts come in different packaging and flavors. The post
+  does not say a bag was packed for the flight.
+- **Generic Philippines, not pinned to El Nido or Coron.**
+  [Travel around the Philippines](https://travelaroundthephilippines.com/souvenirs-philippines/)
+  (published 13 November 2025, updated 26 March 2026): dried mango as a
+  go-to gift; they like 7D, and also name Cebu Brand and Philippine Brand;
+  packs at airports, or a supermarket ahead of the airport; banana chips;
+  Tanduay or Don Papa rum as their preference. Leave alcohol for the
+  watch-out and the suggestion.
+
+**Coffee.**
+
+- **Coron.** The same Well Worth It post: a cashew-butter coffee at Good
+  Grind after the Mt. Tapyas hike, and a cup of Tagbanua coffee at Epic in
+  Coron town. They do not say they packed beans.
+- **Manila city, not the island days.** The souvenir guide: drink and buy
+  beans at Commune and Fresh Roaster Coffee Tonya; barako from Batangas
+  and Cavite; skip civet (alamid) coffee. Option A has no Manila café day.
+- **Not on Option A.** [Soft Luxe Travels, Taal](https://bitsandtreats.blogspot.com/2025/09/soft-luxe-travels-taal-batangas-finding.html)
+  (26 September 2025): a kilo of kapeng barako ground as a gift. Taal is
+  off this route.
+
+**Weaves and wearables.**
+
+- **El Nido.** The souvenir guide points to Kalye Artisano at Lio Beach
+  and to a [roadside fiber shop](https://maps.app.goo.gl/bVLjTL99rKWSvHE27)
+  (bags, hats, napkin rings). It does not say the authors bought a named
+  piece there.
+- **Generic Philippines.** Same guide: banig mats, placemats, bags, and
+  pouches; other textile bags; piña for a barong or baro’t saya; Kultura
+  Filipino in malls, including Manila. A mall stop is not on the Option A
+  connection.
+- **Manila stopover.** [Well Worth It: Manila](https://lifewellworthit.substack.com/p/well-worth-it-manila-philippines)
+  (10 February 2025), 72 hours before Coron and El Nido: meals and walks,
+  not a packed souvenir.
+
+**Pearls.**
+
+- **Coron.** [Stamp in Passport](https://stampinpassport.com/2026/02/05/the-philippines-the-trip-that-tested-our-limits/)
+  (trip 23 December 2025 – 3 January 2026, posted 5 February 2026):
+  Pickapearl, near their hotel. The writer picked pearls and had rings
+  made in the shop. No figure is given.
+- **Off the island nights.** The souvenir guide suggests Greenhills in
+  Manila, Kultura with a certificate, Robinsons in Puerto Princesa, and
+  Jewelmer. Those stops are not on Option A. Peso examples on that page
+  are omitted.
+
+**Left behind.** The same Stamp in Passport writer returned two shells
+picked up in Boracay to the sea at Lio Beach, and wrote that a dog at the
+El Nido–Coron ferry sniffed suitcases for fruit and seashells. That is
+their account. Follow the watch-out, not the blog’s legal line.
+
+**Airport counters.** The souvenir guide says dried mango is sold at
+airports and is cheaper in a supermarket beforehand, and mentions Islands
+Souvenirs (malls and airports) for T-shirts, magnets, and keychains,
+preferring Kultura. It does not name the terminal for a Bengaluru flight.
+
+## Watch out
+
+Official pages only. Re-read in this file from the 25 September 2026
+check. Do not treat a blog’s customs sentence as the rule.
+
+**India, on arrival.** [Baggage Rules, 2026](https://www.indiabudget.gov.in/doc/cen/cus1426.pdf)
+and the [declaration regulations](https://www.indiabudget.gov.in/doc/cen/cus1526.pdf):
+accompanied articles other than Annexure I up to ₹75,000; travel souvenirs
+duty-free apart from that list; one laptop duty-free from age 18; alcohol
+above 2 litres, and the stated tobacco limits, sit outside that clearance;
+the jewellery weight allowance applies only after more than one year
+abroad, so it does not apply to this 10-day trip; declare fruit and
+animal products and use the Red Channel when the form says yes; wildlife
+products are listed as prohibited imports.
+
+**Leaving the Philippines.** [Bangko Sentral](https://www.bsp.gov.ph/SitePages/Regulations/GuideToFx.aspx?TabId=1):
+₱50,000 in pesos without prior authorisation; foreign currency up to
+US$10,000 without a written declaration.
+
+**Coral.** [Fisheries Administrative Order No. 202 (2000)](https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/40555),
+also listed by [BFAR](https://www.bfar.da.gov.ph/laws-regulations-issuances/administrative-orders/):
+do not buy coral.
+
+**Shells.** Leave them out. A BFAR order on shelled mollusks was not fully
+read.
+
+**NAIA.** [Shop directory](https://www.newnaia.com.ph/discover/shops),
+page updated 25 August 2026: Duty Free is listed at Terminals 1, 2, and 3,
+and the page does not say what it sells. A liquor shop is listed at
+Terminal 1 pre-departure. Pasalubong counters are listed in Terminals 1
+and 3. Hours for 2 January 2027 are not stated. A duty-free shop at El
+Nido or Busuanga was not on that page. **Unverified.**
+
+## Suggestion
+
+On Option A, buy a small non-liquid gift in El Nido or Coron only if that
+shop is open. Leave alcohol for a NAIA pre-departure counter on the
+ticketed terminal, inside the Indian limit above. Pack before the
+Busuanga flight. A tight Manila connection is a poor time to hunt for a
+shop.
+
+------------------------------------------------------------------------
+
 # 12. OPTION B --- BORACAY + EL NIDO
 
 ## Route

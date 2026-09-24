@@ -9,19 +9,58 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
+    <script>
+      (function () {
+        var seen = false;
+        try {
+          seen = sessionStorage.getItem("palawan-letter-read") === "1";
+        } catch (e) {}
+        var root = document.documentElement;
+        if (seen) root.classList.add("letter-seen");
+        else {
+          root.classList.add("letter-holding");
+          if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+            root.classList.add("letter-reduced");
+          }
+        }
+      })();
+    </script>
   </head>
   <body>
     <div class="grain" aria-hidden="true"></div>
+    <div class="letter" data-letter role="dialog" aria-modal="true" aria-labelledby="letter-name">
+      <div class="letter-stage">
+        <div class="letter-note-wrap">
+          <div class="letter-note" data-letter-note aria-hidden="true">
+            <p class="letter-for" data-letter-for></p>
+            <span class="letter-bloom" aria-hidden="true"></span>
+            <button class="letter-read" type="button" data-letter-read tabindex="-1">Read it</button>
+          </div>
+        </div>
+        <button class="envelope" type="button" data-letter-open aria-expanded="false">
+          <span class="envelope-pocket" aria-hidden="true"></span>
+          <span class="envelope-liner" aria-hidden="true"></span>
+          <span class="envelope-flap" aria-hidden="true"></span>
+          <span class="envelope-face">
+            <span class="envelope-kicker">For</span>
+            <span class="envelope-name" id="letter-name" data-letter-name></span>
+            <span class="envelope-when" data-letter-when></span>
+            <span class="envelope-open">Open</span>
+          </span>
+          <span class="envelope-seal" aria-hidden="true"><span class="envelope-heart"></span></span>
+        </button>
+      </div>
+    </div>
     <header class="hero" id="top">
       <nav class="nav wrap" aria-label="Primary navigation">
         <a class="brand" href="#top">PALAWAN <span>26/27</span></a>
-        <div class="nav-links"><a href="#journey">Journey</a><a href="#compare">Alternatives</a><a href="#ready">Ready list</a></div>
+        <div class="nav-links"><a href="#journey">Journey</a><a href="#compare">Alternatives</a><a href="#bring-home">Bring home</a><a href="#ready">Ready list</a></div>
         <button class="print-button" type="button" data-print>Print proposal ↗</button>
       </nav>
       <div class="hero-art" aria-hidden="true"><span class="sun"></span><span class="island island-one"></span><span class="island island-two"></span><span class="wave wave-one"></span><span class="wave wave-two"></span></div>
       <div class="hero-content wrap">
         <p class="eyebrow reveal">A 10-day island holiday · 24 Dec 2026 — 2 Jan 2027</p>
-        <h1 class="reveal">The<br /><em>Palawan</em> Chapter.</h1>
+        <h1 class="reveal">The<br /><em>Palawan</em><br />Chapter.</h1>
         <div class="hero-bottom reveal">
           <p>A celebratory, unhurried route from Bengaluru through the limestone lagoons and cobalt waters of El Nido &amp; Coron.</p>
           <a class="round-link" href="#recommendation">See the recommendation <span>↓</span></a>
@@ -88,6 +127,42 @@
         </div><aside class="alt-stays"><b>Stay logic</b><p>24 Dec: Belmont Hotel Manila. 25–26 Dec: Seda Ayala Center Cebu, city side, for the Pier 1 ferry. 27–28 Dec: Henann Resort Alona Beach, so the hills day starts from Panglao. 29–31 Dec: The Funny Lion in El Nido town. 1 Jan: Belmont only when the Clark connection is real.</p><a href="https://philippines.travel/destinations/chocolate-hills-bohol/index" target="_blank" rel="noreferrer">Source: Chocolate Hills guide</a></aside></div></details>
       </section>
 
+      <section class="glimpse" id="glimpse" aria-labelledby="glimpse-title">
+        <div class="wrap glimpse-layout">
+          <div class="glimpse-copy">
+            <p class="section-number light">02C / Glimpses</p>
+            <h2 id="glimpse-title">How the two of us <em>could look</em> there.</h2>
+            <p>Not photographs from this holiday. An illustrative collage so you can picture the two of us across island shores — beaches, boats, and late light.</p>
+          </div>
+          <div class="memory-board" aria-label="Illustrative location postcards">
+            <figure class="memory-card memory-card-1">
+              <span class="memory-tape" aria-hidden="true"></span>
+              <div class="memory-image"><img src="assets/philli-couple-1.png" width="1086" height="1448" alt="Illustrative portrait of a couple beside turquoise water and limestone cliffs"><span class="memory-location">⌖ El Nido, Palawan</span></div>
+            </figure>
+            <figure class="memory-card memory-card-2">
+              <span class="memory-tape" aria-hidden="true"></span>
+              <div class="memory-image"><img src="assets/philli-couple-2.png" width="1086" height="1448" alt="Illustrative boat selfie of a couple in a turquoise lagoon surrounded by limestone cliffs"><span class="memory-location">⌖ Big Lagoon, El Nido</span></div>
+            </figure>
+            <figure class="memory-card memory-card-3">
+              <span class="memory-tape" aria-hidden="true"></span>
+              <div class="memory-image"><img src="assets/philli-couple-3.png" width="1086" height="1448" alt="Illustrative candlelit dinner for a couple overlooking a sunset bay"><span class="memory-location">⌖ Coron, Palawan</span></div>
+            </figure>
+            <figure class="memory-card memory-card-4">
+              <span class="memory-tape" aria-hidden="true"></span>
+              <div class="memory-image"><img src="assets/philli-couple-4.png" width="1086" height="1448" alt="Illustrative beach walk of a couple beneath palm trees with limestone cliffs behind them"><span class="memory-location">⌖ Nacpan Beach, El Nido</span></div>
+            </figure>
+            <figure class="memory-card memory-card-5">
+              <span class="memory-tape" aria-hidden="true"></span>
+              <div class="memory-image"><img src="assets/philli-couple-5.png" width="1086" height="1448" alt="Illustrative couple selfie from a high viewpoint above a bay filled with small islands"><span class="memory-location">⌖ Taraw Cliff Viewpoint, El Nido</span></div>
+            </figure>
+            <figure class="memory-card memory-card-6">
+              <span class="memory-tape" aria-hidden="true"></span>
+              <div class="memory-image"><img src="assets/philli-couple-6.png" width="1086" height="1448" alt="Illustrative couple sitting on a boat beside a bright white-sand island"><span class="memory-location">⌖ Balabac, Palawan</span></div>
+            </figure>
+          </div>
+        </div>
+      </section>
+
       <section class="journey" id="journey">
         <div class="wrap">
           <p class="section-number light">03 / The day-by-day</p>
@@ -114,7 +189,7 @@
             <article id="panel-7" role="tabpanel" data-panel="7" hidden><p class="panel-label">Wednesday · 30 December</p><h3>Coron’s blue rooms</h3><ul class="day-overview" aria-label="Today"><li class="day-overview-label">Today</li><li>Kayangan viewpoint</li><li>Twin Lagoon with a guide</li><li>Skip Barracuda</li></ul><div class="panel-layout"><div class="activity-shot"><figure><img src="assets/photos/coron-kayangan-lake.jpg" alt="Viewpoint above the boat landing at Kayangan Lake, Coron Island"><figcaption>Kayangan Lake viewpoint, Coron Island. Photo: Lyndon Aguila, <a href="https://commons.wikimedia.org/wiki/File:Kayangan_Lake,_Coron_Island.jpg" target="_blank" rel="noreferrer">CC BY-SA 4.0</a>.</figcaption></figure><div class="activity-copy"><p><b>The activity.</b> A Coron lake circuit built around the Kayangan viewpoint. At Kayangan the boat lands below the viewpoint in the photograph; you climb the stairs and look down. The lake swim is optional. Skip Barracuda Lake. Twin Lagoon only with the guide beside you.</p><p><b>Morning.</b> Boat out with the operator. The Department of Tourism identifies all three lakes as Coron highlights.</p><p><b>Midday.</b> The Kayangan stairs and viewpoint, then Twin Lagoon only if the guide stays with you. Expect boat transfers. Barracuda stays off the boat.</p><p><b>Late afternoon.</b> Back in town. This is the big water day; keep the evening light.</p><p><b>Constraint.</b> Bring water shoes, a dry bag, water and sun protection. Which lakes are open that morning is the operator’s confirmation, not this page. Source: Department of Tourism, Coron.</p><p class="day-caution"><b>Caution.</b> Kayangan viewpoint and stairs do not require swimming; the lake swim is optional. Skip Barracuda Lake (it is a swim into deeper water). Twin Lagoon only if the guide stays with you and the jacket stays on.</p></div></div><ul><li><b>Stay:</b> second night at <a href="https://www.thefunnylion.com/coron-home" target="_blank" rel="noreferrer">The Funny Lion Coron</a>.</li><li><b>Bring:</b> water shoes, dry bag, water and sun protection; expect boat transfers. The lake swim is optional.</li><li><b>Source:</b> <a href="https://www.tourism.gov.ph/destination/mimaropa/coron/" target="_blank" rel="noreferrer">Department of Tourism: Coron</a>.</li></ul></div></article>
             <article id="panel-8" role="tabpanel" data-panel="8" hidden><p class="panel-label">Thursday · 31 December</p><h3>Coron, then midnight</h3><ul class="day-overview" aria-label="Today"><li class="day-overview-label">Today</li><li>Hotel pool or café</li><li>Booked NYE dinner</li></ul><div class="panel-layout"><div class="activity-shot"><figure><img src="assets/photos/coron-town-night.jpg" alt="Coron town at night, streets and buildings lit against a dark bay"><figcaption>Coron town at night. Photo: Patrickroque01, <a href="https://commons.wikimedia.org/wiki/File:Coron_Town_Proper_night_view_(Coron,_Palawan;_03-16-2024).jpg" target="_blank" rel="noreferrer">CC BY-SA 4.0</a>.</figcaption></figure><div class="activity-copy"><p><b>The activity.</b> An easy Coron day, then a New Year’s Eve dinner or hotel event you have already booked.</p><p><b>Morning.</b> Optional: the hotel pool or a local café. No snorkel. Do not stack a second lake circuit.</p><p><b>Midday.</b> Keep it unstructured so the evening is the point.</p><p><b>Late afternoon / evening.</b> The celebration itself is not assumed. Confirm the venue’s 2026 programme, dinner, return transport and the property’s NYE policy before you go out.</p><p><b>Constraint.</b> Source: the hotel’s official Coron property page. A beach countdown that has not been booked is unverified.</p><p class="day-caution"><b>Caution.</b> No swimming. The optional snorkel stays off the plan.</p></div></div><ul><li><b>Stay:</b> third night at <a href="https://www.thefunnylion.com/coron-home" target="_blank" rel="noreferrer">The Funny Lion Coron</a>.</li><li><b>Before evening:</b> confirm dinner, return transport and the property’s NYE policy.</li><li><b>Source:</b> <a href="https://www.thefunnylion.com/coron-home" target="_blank" rel="noreferrer">hotel’s official Coron property page</a>.</li></ul></div></article>
             <article id="panel-9" role="tabpanel" data-panel="9" hidden><p class="panel-label">Friday · 1 January</p><h3>A designed slow day</h3><ul class="day-overview" aria-label="Today"><li class="day-overview-label">Today</li><li>Late breakfast</li><li>Maquinit if open</li></ul><div class="panel-layout"><div class="activity-shot"><figure><img src="assets/photos/coron-maquinit-hot-spring.jpg" alt="A rock-edged pool at Maquinit Hot Spring, Coron"><figcaption>A pool at Maquinit Hot Spring, Coron. Photo: Paul Christian B. Yang-ed, <a href="https://commons.wikimedia.org/wiki/File:One_of_the_pools_of_Maquinit_Hotspring,_Coron,_Palawan.jpg" target="_blank" rel="noreferrer">CC0</a>.</figcaption></figure><div class="activity-copy"><p><b>The activity.</b> A recovery day, with Maquinit Hot Spring around sunset if it is operating.</p><p><b>Morning.</b> Late breakfast. A massage or the pool is the suggestion for the empty hours; neither is a booked claim.</p><p><b>Midday.</b> Stay slow. Do not add a wreck dive or another lake tour.</p><p><b>Late afternoon.</b> Maquinit if it is open: sit and wade in the shallow pools. The official tourism guide names it as a Coron activity; local guidance notes that the water is hot.</p><p><b>Constraint.</b> Check holiday opening hours and entry conditions directly before you leave. Sources: Department of Tourism, Coron, and the local Maquinit guide.</p><p class="day-caution"><b>Caution.</b> Shallow hot-spring pools; sit and wade. Not a swimming test. Still no head-under expectation.</p></div></div><ul><li><b>Stay:</b> fourth night at <a href="https://www.thefunnylion.com/coron-home" target="_blank" rel="noreferrer">The Funny Lion Coron</a>.</li><li><b>Before leaving:</b> check holiday opening hours and entry conditions directly.</li><li><b>Sources:</b> <a href="https://www.tourism.gov.ph/destination/mimaropa/coron/" target="_blank" rel="noreferrer">Department of Tourism: Coron</a> · <a href="https://coron.ph/maquinit-hotsprings/" target="_blank" rel="noreferrer">local Maquinit guide</a>.</li></ul></div></article>
-            <article id="panel-10" role="tabpanel" data-panel="10" hidden><p class="panel-label">Saturday · 2 January</p><h3>Coron <span>→</span> Manila <span>→</span> Bengaluru</h3><ul class="day-overview" aria-label="Today"><li class="day-overview-label">Today</li><li>Busuanga to Manila</li><li>Flight home</li></ul><div class="panel-layout"><div class="activity-shot"><figure><img src="assets/photos/naia-terminal-3.jpg" alt="Ninoy Aquino International Airport Terminal 3, with airliners parked at the terminal"><figcaption>Ninoy Aquino International Airport, Terminal 3. Photo: Manila International Airport Authority, <a href="https://commons.wikimedia.org/wiki/File:Ninoy_Aquino_International_Airport_Terminal_3_in_2023.jpg" target="_blank" rel="noreferrer">public domain</a>.</figcaption></figure><div class="activity-copy"><p><b>The activity.</b> Fly from Busuanga (Coron) to Manila and continue home. No buffer sightseeing unless the international connection is not protected.</p><p><b>Morning.</b> Airport transfer for the Busuanga flight you actually hold.</p><p><b>Midday.</b> The Manila connection. Philippine Airlines currently lists Manila–Coron flights, but your date, terminal and connection time must be checked with the carrier.</p><p><b>Late afternoon.</b> The onward international departure, or a Manila buffer night only if that connection is not protected.</p><p><b>Constraint.</b> Reconfirm both flight segments, terminals and baggage conditions. Source: the Philippine Airlines route page.</p></div></div><ul><li><b>Stay:</b> none planned—homeward travel day. Add a Manila buffer night only if the international connection is not protected.</li><li><b>Before travel:</b> reconfirm both flight segments, terminals and baggage conditions.</li><li><b>Source:</b> <a href="https://flights.philippineairlines.com/en-ph/flights-from-manila-to-coron-busuanga" target="_blank" rel="noreferrer">Philippine Airlines route page</a>.</li></ul></div></article>
+            <article id="panel-10" role="tabpanel" data-panel="10" hidden><p class="panel-label">Saturday · 2 January</p><h3>Coron <span>→</span> Manila <span>→</span> Bengaluru</h3><ul class="day-overview" aria-label="Today"><li class="day-overview-label">Today</li><li>Busuanga to Manila</li><li>Flight home</li></ul><div class="panel-layout"><div class="activity-shot"><figure><img src="assets/photos/naia-terminal-3.jpg" alt="Ninoy Aquino International Airport Terminal 3, with airliners parked at the terminal"><figcaption>Ninoy Aquino International Airport, Terminal 3. Photo: Manila International Airport Authority, <a href="https://commons.wikimedia.org/wiki/File:Ninoy_Aquino_International_Airport_Terminal_3_in_2023.jpg" target="_blank" rel="noreferrer">public domain</a>.</figcaption></figure><div class="activity-copy"><p><b>The activity.</b> Fly from Busuanga (Coron) to Manila and continue home. No buffer sightseeing unless the international connection is not protected.</p><p><b>Morning.</b> Airport transfer for the Busuanga flight you actually hold.</p><p><b>Midday.</b> The Manila connection. Philippine Airlines currently lists Manila–Coron flights, but your date, terminal and connection time must be checked with the carrier.</p><p><b>Late afternoon.</b> The onward international departure, or a Manila buffer night only if that connection is not protected.</p><p><b>Constraint.</b> Reconfirm both flight segments, terminals and baggage conditions. What you may carry into India is in <a href="#bring-home">What to bring home</a>. Source: the Philippine Airlines route page.</p></div></div><ul><li><b>Stay:</b> none planned—homeward travel day. Add a Manila buffer night only if the international connection is not protected.</li><li><b>Before travel:</b> reconfirm both flight segments, terminals and baggage conditions.</li><li><b>Source:</b> <a href="https://flights.philippineairlines.com/en-ph/flights-from-manila-to-coron-busuanga" target="_blank" rel="noreferrer">Philippine Airlines route page</a>.</li></ul></div></article>
           </div>
         </div>
       </section>
@@ -128,12 +203,65 @@
 
       <section class="ready wrap">
         <p class="section-number">06 / Before you go</p>
-        <div class="section-heading"><h2>Your <em>ready list.</em></h2><p>These are the small details that protect an island itinerary from becoming stressful.</p></div>
+        <div class="section-heading"><h2>Your <em>ready list.</em></h2><p>These are the small details that protect an island itinerary from becoming stressful. Gifts and duty-free sit in <a href="#bring-home">Bring home</a>.</p></div>
         <div class="check-grid"><article><span>Entry &amp; documents</span><ul><li>Passport valid 6+ months beyond travel</li><li>Return / onward ticket and hotel confirmations</li><li>Complete eTravel through the official site in the permitted pre-arrival window</li><li>Verify current entry rules before purchase</li></ul></article><article><span>Money &amp; connection</span><ul><li>Cards plus PHP cash and a backup card</li><li>eSIM / local SIM; download offline maps</li><li>Save every transfer confirmation offline</li><li>Carry a charged power bank</li></ul></article><article><span>On-water kit</span><ul><li>Dry bag + waterproof phone pouch</li><li>Rash guard, water shoes, hat and sunglasses</li><li>Reef-conscious sunscreen + electrolytes</li><li>Personal motion-sickness medication, if appropriate</li></ul></article></div>
-        <aside class="validation-note"><b>Source standard</b><p>Each day now carries a primary link to an official authority, airline, hotel or named on-the-ground guide. Accommodation is a <em>candidate</em>, not a claim of availability; every rate, operating hour, permit, transport time and tour stop must be reconfirmed for the actual date.</p></aside>
+        <aside class="validation-note"><b>Source standard</b><p>Each day now carries a primary link to an official authority, airline, hotel or named on-the-ground guide. Accommodation is a <em>candidate</em>, not a claim of availability; every rate, operating hour, permit, transport time and tour stop must be reconfirmed for the actual date. Return shopping and customs are in <a href="#bring-home">What to bring home</a>.</p></aside>
+      </section>
+
+      <section class="bring wrap" id="bring-home">
+        <p class="section-number">07 / Bring home</p>
+        <div class="section-heading"><h2>What travelers<br /><em>brought home.</em></h2><p>Personal write-ups for what to look for. Official notes only for what to avoid or declare. Option A still flies Busuanga (Coron) through Manila to Bengaluru. This is not a shop reservation, a current price, or a promise a counter is open.</p></div>
+        <div class="bring-grid">
+          <article>
+            <span>Traveler reports · food</span>
+            <p>Accessed 25 September 2026. These are what writers said they bought or would pack. A figure on a blog is that author’s report, not a current fare. None are quoted here.</p>
+            <ul>
+              <li><b>Coron.</b> Leslie Green and Justin Taylor, in <a href="https://lifewellworthit.substack.com/p/well-worth-it-coron-philippines" target="_blank" rel="noreferrer">Well Worth It: Coron</a> (23 February 2025), wrote that they bought a small bag of garlic cashews at Melb’s Cashew Factory and liked the honey-cashew brittle. They describe the stop as a place to sample flavors and watch cashews being processed.</li>
+              <li><b>Coron.</b> Lakwatserong Hampaslupa, trip 14–18 August 2024, in <a href="https://www.lakwatseronghampaslupa.com/post/coron" target="_blank" rel="noreferrer">The Island of Legends</a> (posted 14 December 2025, updated 22 December 2025), visited Palawan Cashew Company in Sitio Dipaculao, about 3 km from Coron town, and wrote that the processed nuts come in different packaging and flavors. The post does not say a bag was packed for the flight.</li>
+              <li><b>Generic Philippines, not pinned to El Nido or Coron.</b> <a href="https://travelaroundthephilippines.com/souvenirs-philippines/" target="_blank" rel="noreferrer">Travel around the Philippines</a> (published 13 November 2025, updated 26 March 2026) says dried mango is a go-to gift, names 7D as the brand they like, and also names Cebu Brand and Philippine Brand. They say packs turn up at airports and that a supermarket stop ahead of the airport costs less. They also suggest banana chips, and a bottle of Tanduay or Don Papa rum. That rum line is their preference. Leave alcohol for the watch-out and the suggestion below.</li>
+            </ul>
+          </article>
+          <article>
+            <span>Traveler reports · coffee</span>
+            <p>Accessed 25 September 2026. Drinks in town are not the same as beans in a suitcase.</p>
+            <ul>
+              <li><b>Coron, on this route.</b> The same <a href="https://lifewellworthit.substack.com/p/well-worth-it-coron-philippines" target="_blank" rel="noreferrer">Well Worth It</a> post recommends a cashew-butter coffee at Good Grind after the Mt. Tapyas hike, and a cup of Tagbanua coffee at Epic in Coron town. They do not say they packed beans.</li>
+              <li><b>Manila city, not the island days.</b> The <a href="https://travelaroundthephilippines.com/souvenirs-philippines/" target="_blank" rel="noreferrer">souvenir guide</a> says you can drink coffee and buy beans at Commune and at Fresh Roaster Coffee Tonya. They single out barako from Batangas and Cavite, and they tell readers to skip civet (alamid) coffee. Option A does not include a Manila café day.</li>
+              <li><b>Not on Option A.</b> A market diary from Taal, Batangas, <a href="https://bitsandtreats.blogspot.com/2025/09/soft-luxe-travels-taal-batangas-finding.html" target="_blank" rel="noreferrer">Soft Luxe Travels</a> (26 September 2025), says the writer had a kilo of kapeng barako ground as a gift for her husband. That town is off this route.</li>
+            </ul>
+          </article>
+          <article>
+            <span>Traveler reports · weaves</span>
+            <p>Accessed 25 September 2026. The guide below is a traveler roundup, not a receipt from this itinerary.</p>
+            <ul>
+              <li><b>El Nido.</b> <a href="https://travelaroundthephilippines.com/souvenirs-philippines/" target="_blank" rel="noreferrer">Travel around the Philippines</a> points to the Kalye Artisano market at Lio Beach, and to <a href="https://maps.app.goo.gl/bVLjTL99rKWSvHE27" target="_blank" rel="noreferrer">a roadside shop</a> selling fiber bags, hats, and napkin rings. The page does not say the authors bought a named piece there.</li>
+              <li><b>Generic Philippines.</b> The same guide recommends banig pieces (mats, placemats, bags, toiletry pouches), other textile bags, and piña cloth for a barong or a baro’t saya. They like the Kultura Filipino chain in malls, including Manila, for textiles, a barong, T-shirts, and food gifts. A mall stop is not on the Option A connection.</li>
+              <li><b>Manila stopover, not a gift list.</b> Leslie Green’s <a href="https://lifewellworthit.substack.com/p/well-worth-it-manila-philippines" target="_blank" rel="noreferrer">Well Worth It: Manila</a> (10 February 2025) covers 72 hours before Coron and El Nido. It is meals, walks, and a weekend market for samples. It does not name a souvenir they packed.</li>
+            </ul>
+          </article>
+          <article>
+            <span>Traveler reports · pearls</span>
+            <p>Accessed 25 September 2026. One on-route purchase, plus shops the guide names off the island nights.</p>
+            <ul>
+              <li><b>Coron.</b> <a href="https://stampinpassport.com/2026/02/05/the-philippines-the-trip-that-tested-our-limits/" target="_blank" rel="noreferrer">Stamp in Passport</a> (trip 23 December 2025 – 3 January 2026, posted 5 February 2026) shopped at Pickapearl, near their Coron hotel. The writer picked pearls and had rings made in the shop. The post says that was the more expensive choice and does not give a figure.</li>
+              <li><b>Not the El Nido or Coron town days.</b> The <a href="https://travelaroundthephilippines.com/souvenirs-philippines/" target="_blank" rel="noreferrer">souvenir guide</a> suggests pearls at Greenhills in Manila, at Kultura with a certificate, at Robinsons in Puerto Princesa, and at Jewelmer. Puerto Princesa and a Manila mall are not on Option A. Their peso examples are omitted here. They are that page’s report, not a current fare.</li>
+              <li><b>Left behind, El Nido and the ferry.</b> The same Stamp in Passport writer returned two shells picked up in Boracay to the sea at Lio Beach, and wrote that a dog at the El Nido–Coron ferry sniffed suitcases for fruit and seashells. That is their account. The rule to follow is the watch-out below.</li>
+            </ul>
+          </article>
+          <article>
+            <span>Traveler reports · airport</span>
+            <p>Accessed 25 September 2026. What a guide says you can find, not a stock list for 2 January 2027.</p>
+            <ul>
+              <li><b>Airports in general.</b> <a href="https://travelaroundthephilippines.com/souvenirs-philippines/" target="_blank" rel="noreferrer">Travel around the Philippines</a> says dried mango is sold at airports, and that buying it earlier in a supermarket is the cheaper move. They also mention Islands Souvenirs, usually in malls and airports, for T-shirts, magnets, and keychains, and they prefer Kultura’s range.</li>
+              <li><b>NAIA on this ticket.</b> Which counter exists, and that Duty Free’s goods are not described, is in the watch-out. The guide does not name the terminal for a Bengaluru flight.</li>
+            </ul>
+          </article>
+        </div>
+        <aside class="validation-note"><b>Watch out</b><p>Official pages only. Checked 25 September 2026. <a href="https://www.indiabudget.gov.in/doc/cen/cus1426.pdf" target="_blank" rel="noreferrer">India Baggage Rules, 2026</a> and the <a href="https://www.indiabudget.gov.in/doc/cen/cus1526.pdf" target="_blank" rel="noreferrer">declaration form</a>: accompanied articles other than Annexure I up to ₹75,000; travel souvenirs duty-free apart from that list; one laptop duty-free from age 18; alcohol above 2 litres, and the stated tobacco limits, sit outside that clearance; the jewellery weight allowance applies only after more than one year abroad, so it does not apply to this 10-day trip; declare fruit and animal products and use the Red Channel when the form says yes; wildlife products are listed as prohibited imports. <a href="https://www.bsp.gov.ph/SitePages/Regulations/GuideToFx.aspx?TabId=1" target="_blank" rel="noreferrer">Bangko Sentral</a>: ₱50,000 in pesos without prior authorisation; foreign currency up to US$10,000 without a written declaration. <a href="https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/40555" target="_blank" rel="noreferrer">Fisheries Administrative Order No. 202 (2000)</a>, also listed by <a href="https://www.bfar.da.gov.ph/laws-regulations-issuances/administrative-orders/" target="_blank" rel="noreferrer">BFAR</a>: do not buy coral. Shells: leave them out. A BFAR order on shelled mollusks was not fully read. <a href="https://www.newnaia.com.ph/discover/shops" target="_blank" rel="noreferrer">NAIA shop directory</a> (page updated 25 August 2026): Duty Free is listed at Terminals 1, 2, and 3, and the page does not say what it sells; a liquor shop is listed at Terminal 1 pre-departure; pasalubong counters are listed in Terminals 1 and 3. Hours for 2 January 2027 are not stated. A duty-free shop at El Nido or Busuanga was not on that page — <b>Unverified</b>.</p></aside>
+        <aside class="validation-note"><b>Suggestion</b><p>On Option A, buy a small non-liquid gift in El Nido or Coron only if that shop is open. Leave alcohol for a NAIA pre-departure counter on the ticketed terminal, inside the Indian limit above. Pack before the Busuanga flight. A tight Manila connection is a poor time to hunt for a shop.</p></aside>
       </section>
     </main>
-    <footer class="footer"><div class="wrap"><a class="brand" href="#top">PALAWAN <span>26/27</span></a><p>Source-linked 24 September 2026 · Activity links sit on every itinerary day.</p><p class="sources">Core sources: <a href="https://etravel.gov.ph" target="_blank" rel="noreferrer">eTravel</a> · <a href="https://evisa.gov.ph/page/policy?l2=Free+to+enter+the+Philippines+without+Visa" target="_blank" rel="noreferrer">PH entry policy</a> · <a href="https://www.tourism.gov.ph/destination/mimaropa/coron/" target="_blank" rel="noreferrer">Philippines Tourism</a></p></div></footer>
+    <footer class="footer"><div class="wrap"><a class="brand" href="#top">PALAWAN <span>26/27</span></a><p>Source-linked 24 September 2026 · Activity links sit on every itinerary day.</p><p class="sources">Core sources: <a href="https://etravel.gov.ph" target="_blank" rel="noreferrer">eTravel</a> · <a href="https://evisa.gov.ph/page/policy?l2=Free+to+enter+the+Philippines+without+Visa" target="_blank" rel="noreferrer">PH entry policy</a> · <a href="https://www.tourism.gov.ph/destination/mimaropa/coron/" target="_blank" rel="noreferrer">Philippines Tourism</a> · <a href="https://www.indiabudget.gov.in/doc/cen/cus1426.pdf" target="_blank" rel="noreferrer">India Baggage Rules, 2026</a></p></div></footer>
     <script src="app.js"></script>
   </body>
 </html>
