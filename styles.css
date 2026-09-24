@@ -208,3 +208,6 @@ html.letter-reduced .envelope-flap{visibility:hidden;transform:none}
   html.letter-holding,html.letter-holding body{overflow:visible!important}
   html.letter-holding .nav,html.letter-holding .hero-content,html.letter-holding .hero-meta,html.letter-holding main,html.letter-holding .footer,html.letter-holding .reveal{visibility:visible!important;opacity:1!important;transform:none!important;animation:none!important}
 }
+.hero-content{padding-bottom:112px}
+@media print{.hero-content{padding-bottom:25px}}
+@media(min-width:801px){.hero-meta{position:relative;inset:auto;transform:none;margin:0 auto;padding-bottom:24px}}
