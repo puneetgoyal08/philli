@@ -211,3 +211,8 @@ html.letter-reduced .envelope-flap{visibility:hidden;transform:none}
 .hero-content{padding-bottom:112px}
 @media print{.hero-content{padding-bottom:25px}}
 @media(min-width:801px){.hero-meta{position:relative;inset:auto;transform:none;margin:0 auto;padding-bottom:24px}}
+.validation-copy{min-width:0}
+.validation-copy p{margin:0 0 10px}
+.validation-points{display:grid;gap:9px;margin:0;padding-left:18px;font-size:13px;line-height:1.6}
+.validation-points li{padding-left:3px}
+.validation-points a{color:inherit;text-underline-offset:3px}
