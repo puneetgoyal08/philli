@@ -102,10 +102,7 @@ html.letter-dismissed .hero-meta{animation:rise .8s .2s both}
 .letter-for{margin:0 0 12px;font-family:var(--display);font-style:italic;font-weight:500;font-size:15px;letter-spacing:0;color:var(--coral)}
 .letter-note p{margin:0 0 8px;font-family:var(--display);font-weight:500;font-size:clamp(24px,5.4vw,32px);line-height:1.18;letter-spacing:-.04em}
 .letter-note .letter-for{margin:0 0 12px;font-style:italic;font-weight:500;font-size:16px;line-height:1.2;letter-spacing:0;color:var(--coral)}
-.letter-bloom{position:absolute;top:16px;right:16px;width:18px;height:18px;border-radius:50% 50% 50% 0;background:var(--coral);transform:rotate(-30deg);opacity:.85}
-.letter-bloom::before,.letter-bloom::after{content:"";position:absolute;background:var(--sea);border-radius:50%}
-.letter-bloom::before{width:8px;height:14px;left:14px;top:8px;transform:rotate(40deg);border-radius:40% 40% 40% 0}
-.letter-bloom::after{width:2px;height:16px;left:8px;top:14px;background:#2f6b52;border-radius:0}
+.letter-bloom{position:absolute;top:13px;right:16px;color:var(--coral);font:700 25px/1 var(--display);transform:rotate(-8deg);opacity:.9}
 .letter-read{appearance:none;display:inline-flex;align-items:center;justify-content:center;min-height:48px;min-width:132px;margin-top:16px;padding:12px 22px;border:0;background:var(--coral);color:#fff;cursor:pointer;font:500 12px var(--mono);letter-spacing:.14em;text-transform:uppercase}
 .letter-read:hover{background:var(--ink)}
 .letter-read:focus-visible,.envelope:focus-visible{outline:2px solid var(--ink);outline-offset:4px}
