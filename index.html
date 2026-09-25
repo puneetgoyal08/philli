@@ -85,7 +85,11 @@
       </section>
 
       <section class="route-band" aria-label="Recommended route overview">
-        <div class="wrap route-stops"><div><b>01</b><span>Bengaluru</span><small>Depart</small></div><i></i><div><b>02</b><span>Manila</span><small>1 night</small></div><i></i><div><b>03</b><span>El Nido</span><small>3 nights</small></div><i></i><div><b>04</b><span>Coron</span><small>4 nights</small></div><i></i><div><b>05</b><span>Home</span><small>Return</small></div></div>
+        <div class="horizontal-scroll wrap" data-horizontal-scroll>
+          <button class="scroll-arrow scroll-arrow-prev" type="button" aria-label="Show earlier route stops" data-scroll-prev>←</button>
+          <div class="route-stops" data-scroll-area><div><b>01</b><span>Bengaluru</span><small>Depart</small></div><i></i><div><b>02</b><span>Manila</span><small>1 night</small></div><i></i><div><b>03</b><span>El Nido</span><small>3 nights</small></div><i></i><div><b>04</b><span>Coron</span><small>4 nights</small></div><i></i><div><b>05</b><span>Home</span><small>Return</small></div></div>
+          <button class="scroll-arrow scroll-arrow-next" type="button" aria-label="Show later route stops" data-scroll-next>→</button>
+        </div>
       </section>
 
       <section class="compare wrap" id="compare">
@@ -167,7 +171,9 @@
         <div class="wrap">
           <p class="section-number light">03 / The day-by-day</p>
           <div class="journey-heading"><h2>Ten days, <em>no rush.</em></h2><p>Big water days alternate with transfer and recovery time. That is the difference between seeing Palawan and actually enjoying it.</p><p class="day-caution"><b>Caution.</b> You do not need to swim to do this trip. Tell every boat operator before paying: “I don’t swim. No jumps. Life jacket on in the water.” Skip anything sold as a jump, cliff entry, or swim-through.</p></div>
-          <div class="day-picker" role="tablist" aria-label="Itinerary days">
+          <div class="horizontal-scroll day-picker-wrap" data-horizontal-scroll>
+            <button class="scroll-arrow scroll-arrow-prev" type="button" aria-label="Show earlier itinerary days" data-scroll-prev>←</button>
+            <div class="day-picker" role="tablist" aria-label="Itinerary days" data-scroll-area>
             <button role="tab" aria-selected="true" aria-controls="panel-1" tabindex="0" data-day="1"><small>24 DEC</small><b>01</b><span>Arrive Manila</span></button>
             <button role="tab" aria-selected="false" aria-controls="panel-2" tabindex="-1" data-day="2"><small>25 DEC</small><b>02</b><span>Christmas easy</span></button>
             <button role="tab" aria-selected="false" aria-controls="panel-3" tabindex="-1" data-day="3"><small>26 DEC</small><b>03</b><span>To El Nido</span></button>
@@ -178,6 +184,8 @@
             <button role="tab" aria-selected="false" aria-controls="panel-8" tabindex="-1" data-day="8"><small>31 DEC</small><b>08</b><span>New Year’s Eve</span></button>
             <button role="tab" aria-selected="false" aria-controls="panel-9" tabindex="-1" data-day="9"><small>01 JAN</small><b>09</b><span>Slow day</span></button>
             <button role="tab" aria-selected="false" aria-controls="panel-10" tabindex="-1" data-day="10"><small>02 JAN</small><b>10</b><span>Homeward</span></button>
+          </div>
+            <button class="scroll-arrow scroll-arrow-next" type="button" aria-label="Show later itinerary days" data-scroll-next>→</button>
           </div>
           <div class="day-panels">
             <article id="panel-1" role="tabpanel" data-panel="1"><p class="panel-label">Thursday · 24 December</p><h3>Bengaluru <span>→</span> Manila</h3><ul class="day-overview" aria-label="Today"><li class="day-overview-label">Today</li><li>Land at NAIA</li><li>Hotel transfer</li><li>Sleep</li></ul><div class="panel-layout"><div class="activity-shot"><figure><img src="assets/photos/naia-terminal-3.jpg" alt="Ninoy Aquino International Airport Terminal 3, with airliners parked at the terminal"><figcaption>Ninoy Aquino International Airport, Terminal 3. Photo: Manila International Airport Authority, <a href="https://commons.wikimedia.org/wiki/File:Ninoy_Aquino_International_Airport_Terminal_3_in_2023.jpg" target="_blank" rel="noreferrer">public domain</a>.</figcaption></figure><div class="activity-copy"><p><b>The activity.</b> Arrival and a night at the airport hotel. This is intentionally a no-sightseeing day.</p><p><b>Morning / arrival.</b> Land, clear the airport, and take the hotel transfer.</p><p><b>Midday.</b> No city block. Organise cash and an eSIM only if you need them.</p><p><b>Late afternoon / evening.</b> Dinner near the hotel, then sleep. Keep passport, return ticket and hotel confirmations offline.</p><p><b>Constraint.</b> Source: official eTravel for arrival registration. Intramuros is tomorrow, and only if the venues are open.</p></div></div><ul><li><b>Stay:</b> <a href="https://www.belmonthotelmanila.com/" target="_blank" rel="noreferrer">Belmont Hotel Manila</a> — airport-area candidate; confirm the transfer policy directly.</li><li><b>Before bed:</b> keep passport, return ticket and hotel confirmations offline.</li><li><b>Source:</b> <a href="https://etravel.gov.ph" target="_blank" rel="noreferrer">official eTravel</a> for arrival registration.</li></ul></div></article>

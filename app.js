@@ -126,3 +126,27 @@ dayButtons.forEach((button, index) => {
     activateDay(dayButtons[nextIndex].dataset.day);
   });
 });
+
+function initHorizontalScrollers() {
+  document.querySelectorAll("[data-horizontal-scroll]").forEach((scroller) => {
+    const area = scroller.querySelector("[data-scroll-area]");
+    const previous = scroller.querySelector("[data-scroll-prev]");
+    const next = scroller.querySelector("[data-scroll-next]");
+    if (!area || !previous || !next) return;
+
+    function updateArrows() {
+      const maxScroll = area.scrollWidth - area.clientWidth;
+      const hasOverflow = maxScroll > 2;
+      previous.disabled = !hasOverflow || area.scrollLeft <= 2;
+      next.disabled = !hasOverflow || area.scrollLeft >= maxScroll - 2;
+    }
+
+    previous.addEventListener("click", () => area.scrollBy({ left: -area.clientWidth * 0.72, behavior: "smooth" }));
+    next.addEventListener("click", () => area.scrollBy({ left: area.clientWidth * 0.72, behavior: "smooth" }));
+    area.addEventListener("scroll", updateArrows, { passive: true });
+    window.addEventListener("resize", updateArrows);
+    updateArrows();
+  });
+}
+
+initHorizontalScrollers();
