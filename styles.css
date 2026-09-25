@@ -216,3 +216,18 @@ html.letter-reduced .envelope-flap{visibility:hidden;transform:none}
 .validation-points{display:grid;gap:9px;margin:0;padding-left:18px;font-size:13px;line-height:1.6}
 .validation-points li{padding-left:3px}
 .validation-points a{color:inherit;text-underline-offset:3px}
+
+/* Mobile overflow affordances for the route and day picker. */
+.horizontal-scroll{position:relative}
+.scroll-arrow{display:none}
+@media(max-width:800px){
+  .route-stops{padding-inline:34px;scrollbar-width:none}
+  .day-picker{padding-inline:34px;scrollbar-width:none}
+  .route-stops::-webkit-scrollbar,.day-picker::-webkit-scrollbar{display:none}
+  .scroll-arrow{position:absolute;z-index:2;top:50%;display:inline-flex;width:28px;height:28px;align-items:center;justify-content:center;padding:0;border:1px solid rgba(7,61,67,.25);border-radius:50%;background:rgba(255,253,248,.92);color:var(--ink);font:18px/1 var(--display);box-shadow:0 2px 8px rgba(7,61,67,.14);cursor:pointer;transform:translateY(-50%);transition:opacity .2s,background .2s}
+  .scroll-arrow:hover:not(:disabled){background:var(--coral);color:#fff}
+  .scroll-arrow:disabled{opacity:.25;cursor:default}
+  .scroll-arrow-prev{left:2px}
+  .scroll-arrow-next{right:2px}
+  .day-picker-wrap{margin-inline:0}
+}
