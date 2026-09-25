@@ -130,6 +130,19 @@ function activateDay(day) {
   dayPanels.forEach((panel) => {
     panel.hidden = panel.dataset.panel !== day;
   });
+
+  document.dispatchEvent(new CustomEvent('daychange'));
+}
+
+function selectAdjacentDay(direction) {
+  const activeIndex = dayButtons.findIndex((button) => button.getAttribute('aria-selected') === 'true');
+  const nextIndex = Math.min(Math.max(activeIndex + direction, 0), dayButtons.length - 1);
+  const nextButton = dayButtons[nextIndex];
+  if (!nextButton || nextIndex === activeIndex) return;
+
+  activateDay(nextButton.dataset.day);
+  nextButton.focus({ preventScroll: true });
+  nextButton.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
 }
 
 dayButtons.forEach((button, index) => {
@@ -154,16 +167,32 @@ function initHorizontalScrollers() {
     const next = scroller.querySelector("[data-scroll-next]");
     if (!area || !previous || !next) return;
 
+    const isDayPicker = Boolean(area.querySelector("[data-day]"));
+
     function updateArrows() {
+      if (isDayPicker) {
+        const activeIndex = dayButtons.findIndex((button) => button.getAttribute('aria-selected') === 'true');
+        previous.disabled = activeIndex <= 0;
+        next.disabled = activeIndex >= dayButtons.length - 1;
+        return;
+      }
+
       const maxScroll = area.scrollWidth - area.clientWidth;
       const hasOverflow = maxScroll > 2;
       previous.disabled = !hasOverflow || area.scrollLeft <= 2;
       next.disabled = !hasOverflow || area.scrollLeft >= maxScroll - 2;
     }
 
-    previous.addEventListener("click", () => area.scrollBy({ left: -area.clientWidth * 0.72, behavior: "smooth" }));
-    next.addEventListener("click", () => area.scrollBy({ left: area.clientWidth * 0.72, behavior: "smooth" }));
-    area.addEventListener("scroll", updateArrows, { passive: true });
+    if (isDayPicker) {
+      previous.addEventListener("click", () => selectAdjacentDay(-1));
+      next.addEventListener("click", () => selectAdjacentDay(1));
+      document.addEventListener('daychange', updateArrows);
+    } else {
+      previous.addEventListener("click", () => area.scrollBy({ left: -area.clientWidth * 0.72, behavior: "smooth" }));
+      next.addEventListener("click", () => area.scrollBy({ left: area.clientWidth * 0.72, behavior: "smooth" }));
+      area.addEventListener("scroll", updateArrows, { passive: true });
+    }
+
     window.addEventListener("resize", updateArrows);
     updateArrows();
   });
