@@ -4,9 +4,10 @@ const letterCopy = {
   forLine: "for Nidhi",
   when: "24 Dec — 2 Jan",
   lines: [
-    "Nidhi, I kept these days for you.",
-    "Christmas to the new year, unhurried, just us.",
-    "Palawan is the chapter. Read it with me.",
+    "Nidhi, I kept these days for you —",
+    "not just for a trip, but for our first chapter after becoming us.",
+    "Christmas to the new year, nowhere else to be, just you and me.",
+    "Palawan is the place. Let's write it together.",
   ],
 };
 
