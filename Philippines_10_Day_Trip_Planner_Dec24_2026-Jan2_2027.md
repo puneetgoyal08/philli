@@ -1434,20 +1434,45 @@ Airport/ferry transfers
 
 # 18. WEATHER + SEA CONDITIONS
 
-Island travel has an important variable that a normal city holiday does
-not:
+## Verified: is this a good time?
 
-**the sea.**
+**Yes.** Your dates, 24 December 2026–2 January 2027, fall inside
+PAGASA's **cool dry season** (December–February). That makes them a good
+fit for beaches, lagoons, lakes, and outdoor days. It does not guarantee
+clear skies or calm seas.
+[PAGASA climate overview](https://www.pagasa.dost.gov.ph/information/climate-philippines),
+accessed 26 September 2026; checked the season definition and national
+climate description.
+
+## Suggestion: the best time of year
+
+For this route, **December to February is the best overall window**: a
+good balance of warmth and the drier season. **January and February are the
+best months if you can choose freely**. March to May is also in the dry
+season, but it is hotter. June to November is the rainy season and is less
+reliable for a ferry-heavy island trip. This is a planning recommendation
+based on PAGASA's season definitions, not a day-by-day forecast.
+
+The exact weather for 24 December 2026–2 January 2027 is **unverified** at
+this planning stage. Check PAGASA's [tourist-area forecast](https://bagong.pagasa.dost.gov.ph/weather/weather-outlook-selected-tourist-areas),
+[marine forecast](https://bagong.pagasa.dost.gov.ph/marine/high-seas-forecast),
+and [tropical-cyclone advisories](https://bagong.pagasa.dost.gov.ph/tropical-cyclone-advisory-iframe)
+shortly before travel. These live products were checked 26 September 2026.
+
+## What this means for Option A
+
+Keep Option A as the recommendation. Leave the El Nido–Coron ferry and
+island-hopping days flexible, confirm every sailing with the operator, and
+do not connect the ferry directly to an international flight. This is
+pacing advice, not a forecast.
 
 Flights may operate while ferries or boat tours are affected by sea
-conditions.
-
-## Build flexibility around
-
--   Ferry days
--   Island-hopping
--   Diving
--   Final international connection
+conditions. Confirm each sailing with the operator, and check PAGASA's
+[tourist-area forecast](https://bagong.pagasa.dost.gov.ph/weather/weather-outlook-selected-tourist-areas),
+[marine forecast](https://bagong.pagasa.dost.gov.ph/marine/high-seas-forecast),
+and [tropical-cyclone advisories](https://bagong.pagasa.dost.gov.ph/tropical-cyclone-advisory-iframe)
+shortly before travel. These live products were checked 25 September 2026;
+they are not a forecast for the trip dates yet.
 
 ## Don't build
 
