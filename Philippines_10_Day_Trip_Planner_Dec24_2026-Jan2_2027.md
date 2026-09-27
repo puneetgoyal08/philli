@@ -1385,6 +1385,168 @@ optional.
 
 ------------------------------------------------------------------------
 
+# 16A. OPTION D --- MOALBOAL + CORON–EL NIDO EXPEDITION
+
+## Route
+
+**Bengaluru → Cebu → Moalboal → Cebu airport → Coron → El Nido → Manila → Bengaluru**
+
+### Why this option was added
+
+Recent traveler itineraries make this shape credible, but they also show
+why it is the most ambitious route in the proposal:
+
+-   The9toFly's 2026 itinerary uses **Days 1–3: Moalboal, Days 4–6:
+    Coron, Days 7–9: El Nido, and Days 10–12: Manila**. Their published
+    route also reports Cebu–Coron by air and Coron–El Nido by ferry.
+    [The9toFly, accessed 27 September 2026](https://the9tofly.com/the-ultimate-12-day-philippines-itinerary-for-first-timers-2026/).
+-   Roads and Rivers reports that the journey from Moalboal to Coron was
+    a full-day transfer via Cebu Airport, then describes a three-day boat
+    trip from Coron to El Nido.
+    [Roads and Rivers, accessed 27 September 2026](https://roads-and-rivers.com/en/backpacking-philippines-travel-guide/).
+-   Sam and Kels place Coron before El Nido, with a Coron–El Nido ferry
+    day between the two bases.
+    [Sam and Kels Adventures, accessed 27 September 2026](https://samandkelsadventures.com/3-weeks-in-philippines-itinerary/).
+-   A current expedition operator lists a **4D3N Coron-to-El Nido**
+    product. That is not interchangeable with a fast passenger ferry and
+    does not automatically fit this ten-day calendar.
+    [Big Dream Boatman, accessed 27 September 2026](https://bigdreamboatmancoron.com/blogs/philippines-guide/three-weeks-itinerary-philippines).
+
+### Verified: what the research supports
+
+The route is a recognizable traveler pattern: Moalboal for Cebu's south,
+Coron for Palawan's lakes and wrecks, and El Nido for lagoons and beaches.
+The sources above support the sequence and the need to treat the
+Moalboal–Coron leg as a full transfer day. The Department of Tourism's
+[Cebu guide](https://www.tourism.gov.ph/destination/central-visayas/cebu/),
+accessed 27 September 2026, is the authority for Cebu activities.
+
+The **Coron–El Nido leg is the deciding constraint**. A short passenger
+ferry, a three-day boat trip, and a four-day/three-night expedition are
+different products. The operator, departure date, duration, stops, meals,
+cabins, and availability for December 2026 are **unverified**. Confirm the
+actual product directly before booking hotels around it.
+
+### Suggestion: the best-fit version for these dates
+
+Use the following as the Option D planning shape only if a **3D2N
+Coron-to-El Nido expedition or a compatible ferry** is available for the
+actual dates. If the only suitable product is 4D3N, this option needs a
+longer trip or a cut elsewhere; do not promise a full El Nido day on 31
+December until the arrival date is confirmed.
+
+## Option D --- day-by-day plan
+
+### Day 1 --- 24 Dec --- Bengaluru → Cebu → Moalboal
+
+**Overview.** Fly into Cebu and continue south by the confirmed road
+transfer. The flight routing, arrival time, and Christmas road conditions
+are **unverified**.
+
+-   Transfer to Moalboal only if the ticketed arrival leaves a safe margin;
+    otherwise sleep in Cebu and move the following morning.
+-   Keep this as an arrival and check-in day. Do not pre-book a timed water
+    activity until the transport is confirmed.
+-   Candidate stay: a Moalboal property with a confirmed late check-in and
+    transfer policy.
+
+### Day 2 --- 25 Dec --- Moalboal
+
+**Overview.** One guided marine activity or a slow coast day.
+
+-   The sardine-run option is a **suggestion**, not a guaranteed Christmas
+    activity. Confirm the guide, conditions, life-jacket policy, and
+    operating status directly.
+-   Keep the afternoon unstructured and confirm the next day's activity.
+-   Source for the Cebu activity context: [Department of Tourism,
+    Cebu](https://www.tourism.gov.ph/destination/central-visayas/cebu/),
+    accessed 27 September 2026.
+
+### Day 3 --- 26 Dec --- Moalboal
+
+**Overview.** Second Moalboal day, with a conservative activity choice.
+
+-   Choose either a guided sardine-run outing, a Kawasan-area visit if the
+    operator confirms access, or a recovery day. Do not stack every activity
+    from a blog into one day.
+-   Confirm the airport transfer tonight. Tomorrow is a travel day, not a
+    second southern-Cebu tour.
+-   Any opening hours, permit, tour stop, and price are **unverified** until
+    checked with the operator.
+
+### Day 4 --- 27 Dec --- Moalboal → Cebu Airport → Coron
+
+**Overview.** Full transfer day to Busuanga/Coron.
+
+-   Return to Cebu Airport with a ticketed flight to the Coron gateway. The
+    exact flight, baggage rules, and airport-to-town transfer are
+    **unverified** for 27 December 2026.
+-   Do not add a Coron boat tour on arrival day.
+-   Candidate stay: one flexible-cancellation night near Coron Town; confirm
+    the property's airport-transfer policy directly.
+
+### Days 5–7 --- 28–30 Dec --- Coron → El Nido
+
+**Overview.** Use the booked Coron-to-El Nido product: either a confirmed
+    3D2N expedition, or a passenger ferry with the remaining days spent in
+    Coron and El Nido. These are not interchangeable.
+
+-   If a 3D2N expedition is confirmed, treat Days 5–7 as the boat journey
+    and arrive in El Nido only when the operator confirms the landing date.
+-   If only a 4D3N expedition is available, it may arrive on 31 December;
+    the El Nido New Year's Eve plan then becomes a **suggestion only**, not a
+    guaranteed evening.
+-   If a passenger ferry is chosen instead, use the spare Coron day for one
+    lake or reef circuit and keep the El Nido arrival evening light.
+-   Confirm the operator, sailing/launch date, duration, stops, cabin,
+    meals, safety equipment, weather policy, and cancellation terms
+    directly. All exact schedules, prices, availability, and inclusions are
+    **unverified**.
+
+### Day 8 --- 31 Dec --- El Nido
+
+**Overview.** Recovery and New Year's Eve, only if the boat product lands
+    before this date.
+
+-   Late breakfast, a quiet town or beach afternoon, and a pre-booked dinner
+    are the appropriate shape after a multi-day crossing.
+-   Do not schedule a second boat tour or assume a beach countdown. Confirm
+    the venue, dinner, return transport, and hotel policy directly.
+-   Candidate stay: an El Nido town or Corong-Corong property; confirm
+    availability and the holiday policy with the property.
+
+### Day 9 --- 1 Jan --- El Nido → Manila
+
+**Overview.** Exit El Nido with a protected connection and sleep in Manila.
+
+-   The gateway, flight, onward connection, terminals, and baggage rules
+    are **unverified** for 1 January 2027.
+-   Do not attach the El Nido exit to the international flight without a
+    protected buffer. No Manila sightseeing is planned.
+-   Candidate stay: an airport-area Manila property; confirm the transfer
+    policy directly.
+
+### Day 10 --- 2 Jan --- Manila → Bengaluru
+
+**Overview.** Transfer to the international terminal and fly home.
+
+-   Reconfirm the terminal, baggage rules, and the international ticket.
+-   This is a flight day; no Cebu, Coron, or El Nido errand fits here.
+
+### Main trade-off
+
+Option D matches recent traveler routes more closely than Option C, and it
+adds the adventure of moving from Cebu to Palawan by way of Coron. It also
+uses the most fragile chain in the trip: a Cebu-to-Coron flight followed by
+a multi-day Coron-to-El Nido water transfer. The recent 2026 guidance from
+[Tourism.ph](https://tourism.ph/travel-guides/philippines-itinerary/),
+accessed 27 September 2026, warns that ten days is best kept to two regions
+and advises divers to choose Coron or Moalboal rather than sampling both.
+Choose D when the expedition experience matters more than recovery time and
+you are willing to re-route if the live transport chain does not exist.
+
+------------------------------------------------------------------------
+
 # 17. CHRISTMAS + NEW YEAR CHANGES EVERYTHING
 
 The travel dates are not ordinary dates.
@@ -1480,6 +1642,59 @@ they are not a forecast for the trip dates yet.
 > flight at 18:00
 
 unless the components are protected and the risk is explicitly accepted.
+
+------------------------------------------------------------------------
+
+# 18A. SCREENSHOT-BASED FIELD NOTES
+
+The five user-provided Instagram screenshots were saved on 27 September
+2026 as planning leads only. They show a post dated 18 May 2025 and
+traveller-reported activity, food, cash, baggage, and tour-price claims.
+They are **not definite sources**, so the prices, availability, and broad
+claims below are **unverified** and are not used as booking inputs.
+
+## Verified guidance
+
+-   **Weather:** check the forecast for the relevant tourist area and the
+    marine forecast before each ferry or boat day. PAGASA publishes both a
+    tourist-area outlook and a marine forecast; both pages were checked 27
+    September 2026: [tourist-area forecast](https://bagong.pagasa.dost.gov.ph/weather/weather-outlook-selected-tourist-areas)
+    and [marine forecast](https://www.pagasa.dost.gov.ph/marine/high-seas-forecast).
+-   **Baggage:** do not copy the screenshot's generic “7 kg” rule across
+    every flight. Current carrier rules differ and can change. Cebu Pacific's
+    [official hand-carry guidance](https://help.cebupacificair.com/article/hand-carry-guidelines-272309),
+    checked 27 September 2026, distinguishes Cebu Pacific 5J and Cebgo DG
+    flights; AirSWIFT's [official terms](https://air-swift.com/full-terms-conditions/),
+    checked the same day, set their own checked-baggage conditions. Check the
+    allowance shown on each issued ticket and add baggage only through the
+    carrier.
+
+## Suggestion
+
+Keep the screenshot's useful planning instinct—**two main island bases are
+enough for this holiday**—because it matches Option A's lower transfer load.
+Use the screenshots as prompts to ask better questions, not as reasons to
+add Moalboal or a multi-day expedition to the recommended route.
+
+## Unverified leads to confirm
+
+-   **Tours:** the screenshots say in-person tour quotes may be cheaper than
+    online prices. Unverified. Compare a written quote's inclusions, permits,
+    meals, gear, pickup, weather policy, and cancellation terms before
+    paying; do not assume the in-person quote is cheaper or better.
+-   **Food:** the screenshots report that vegetarian/vegan food can be found,
+    while El Nido cafés and vegetarian meals may cost more. Unverified for
+    this trip. Shortlist current restaurants, check menus close to travel,
+    and ask the hotel or tour operator what meal is actually included.
+-   **Cash:** the screenshots warn that cards and ATMs may not work
+    everywhere. Unverified as a route-wide statement, but the safe planning
+    suggestion remains: carry cards, Philippine pesos, a backup card, and an
+    emergency cash buffer before ferry and remote-tour days.
+-   **Activity fit:** the screenshots mention Moalboal's sardine run and
+    canyoneering, plus a Coron-to-El Nido expedition. These are route ideas,
+    not additions to Option A. Treat any price, departure, operator,
+    inclusions, and availability shown in the screenshots as stale until the
+    operator confirms them directly.
 
 ------------------------------------------------------------------------
 
@@ -2029,6 +2244,14 @@ Then compare the routes against the priorities that matter most to you.
 -   Culture
 -   Marine activities
 -   Seeing more different types of Philippine destinations
+
+## Consider Option D if your priorities are:
+
+-   Moalboal's marine and south-Cebu experience
+-   Coron and El Nido in the same trip
+-   A multi-day boat expedition rather than only a passenger ferry
+-   Adventure and route novelty
+-   Accepting a high transfer load and a live-schedule contingency
 
 ------------------------------------------------------------------------
 
