@@ -239,3 +239,4 @@ html.letter-reduced .envelope-flap{visibility:hidden;transform:none}
 .comparison-grid{grid-template-columns:repeat(4,1fr)}
 @media(max-width:800px){.comparison-grid{grid-template-columns:1fr}}
 @media(max-width:800px){.field-notes{padding:80px 0}.field-notes-grid{grid-template-columns:1fr}.field-notes-grid article{border-right:1px solid var(--line)}}
+.day-panels .activity-shot img.flight-screenshot{aspect-ratio:auto;object-fit:contain;background:#fff}

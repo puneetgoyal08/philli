@@ -18,6 +18,298 @@ priorities.
 
 # 1. Executive Summary
 
+## 1A. SELECTED ITINERARY --- RELAXED CEBU + EL NIDO
+
+### Route
+
+**Bengaluru → Cebu → Moalboal → El Nido → Manila → Bengaluru**
+
+### The shape
+
+**Suggestion.** This version changes the recommended route for this brief. It gives Moalboal three nights, El Nido five nights, and Manila one full buffer night. It puts canyoneering on 25 December, scuba on 26 December, and the El Nido transfer on 27 December. The 27 December flight must be cleared with the dive centre first; 28 December is the recovery day, 29 December is the only fixed island-hopping day, and 1 January remains the Manila buffer.
+
+**Verified.** Cebu Provincial Tourism identifies Moalboal as a dive-resort base and lists the Alegria–Badian canyoneering activity. Its official tourism pages also list current policies for Kawasan and canyoneering. The current Cebu Pacific guide lists Cebu–El Nido service, while its Cebgo/AirSWIFT update says El Nido services also connect Cebu and that actual flight details must remain on the ticket. The provided one-stop Bengaluru–Cebu option, every exact schedule, availability, transfer, rate, qualification, operating condition, and New Year programme are **unverified** until confirmed with the carrier, property, or operator. Sources checked 6 October 2026: [Cebu Tourism: Moalboal](https://tourism.cebu.gov.ph/explore/moalboal/), [Cebu Tourism: policies](https://tourism.cebu.gov.ph/policies/), [Cebu Pacific: CEB airport route guide](https://help.cebupacificair.com/article/cebu-travel-guide-mactan-cebu-international-airport-ceb-211355), and [Cebu Pacific: AirSWIFT transition](https://help.cebupacificair.com/article/air-swift-transitions-into-cebgo-operations-247334).
+
+### Night allocation
+
+-   Cebu airport: 24 Dec --- arrival and transfer only
+-   Moalboal: 24--26 Dec --- 3 nights
+-   El Nido: 27--31 Dec --- 5 nights
+-   Manila: 1 Jan --- 1 night
+
+### Flight options from the provided screenshots
+
+These are **unverified user-provided options**, captured 6 October 2026. They are useful ticket shapes, not booking confirmations.
+
+-   **Outbound option:** Thai AirAsia + Cebu Pacific, Bengaluru **23 December, 23:10** → Cebu **24 December, 11:40**, 1 stop at DMK, shown duration 10h.
+-   **Return option:** Thai Airways, Manila **2 January, 17:15** → Bengaluru **3 January, 00:05**, 1 stop at BKK, shown duration 9h 20m.
+-   Confirm the flight numbers, operating carriers, layover, terminals, baggage, fare, availability, and schedule directly before booking.
+
+------------------------------------------------------------------------
+
+## Day 1 --- 24 Dec --- Bengaluru → Cebu → Moalboal
+
+**Overview.** Overnight routing leaves Bengaluru on 23 December, arrives in Cebu on 24 December, and continues directly to Moalboal; no Cebu overnight is planned.
+
+### Plan
+
+-   Use the provided Thai AirAsia + Cebu Pacific screenshot as the preferred outbound option: leave Bengaluru at 23:10 on 23 December and arrive in Cebu at 11:40 on 24 December, subject to confirmation.
+-   Take the pre-confirmed road transfer directly from Cebu airport to a Moalboal **candidate** stay. The transfer time, holiday traffic, vehicle and rate are **unverified**.
+-   Check in, eat, save offline tickets and hotel confirmations, and sleep. No Cebu City sightseeing or Cebu/Mactan overnight is planned.
+
+### Avoid
+
+-   Adding Cebu City sightseeing or treating Cebu as an overnight base.
+-   Booking a non-refundable activity for the next morning before the international ticket is issued.
+
+### What to take care of
+
+-   Confirm the ticketed arrival airport, baggage rules, airport pickup, eTravel timing and the direct Cebu airport → Moalboal transfer.
+-   Check entry requirements through the official [Philippine eTravel](https://etravel.gov.ph) site at the time of travel; the applicable rule and submission window are **unverified** here.
+
+### Source
+
+-   **Unverified user-provided option:** Thai AirAsia + Cebu Pacific, BLR 23:10 on 23 December → CEB 11:40 on 24 December, 1 stop DMK, shown duration 10h. Confirm with the carrier before booking. The direct Cebu airport → Moalboal transfer and its arrival time are also unverified.
+-   Official eTravel: [etravel.gov.ph](https://etravel.gov.ph), accessed 6 October 2026.
+
+------------------------------------------------------------------------
+
+## Day 2 --- 25 Dec --- Canyoneering at Kawasan, if cleared to operate
+
+**Overview.** The one committed adventure day; nothing else is scheduled around it.
+
+### Plan
+
+-   Join canyoneering only with an accredited guide and the required protective equipment. The official Kawasan guide identifies helmets and life vests as required equipment and says access can close after heavy rain.
+-   Tell the operator before paying that you want the non-jump route wherever available. The same guide says non-jump detours exist; whether one is available on this date is **unverified** and must be confirmed by the operator.
+-   Return to Moalboal, eat, hydrate, and leave the evening open.
+
+### Avoid
+
+-   Adding a dive, long transfer, or second waterfall after the canyon.
+-   Treating a booked tour as permission to proceed when the local safety decision is to close or alter the route.
+
+### What to take care of
+
+-   Confirm the operator, guide accreditation, weather call, meeting point, protective equipment, non-jump alternative, what is included, and whether the route is suitable for you.
+
+### Source
+
+-   **Verified:** [Love Philippines: Kawasan Falls](https://philippines.travel/spots/kawasan-cebu/index) says the Badian route is regulated, requires accredited guides and protective equipment, and is weather dependent; [Cebu Tourism: Canyoneering policies](https://tourism.cebu.gov.ph/policies/) lists the provincial guidelines. Both accessed 6 October 2026.
+
+------------------------------------------------------------------------
+
+## Day 3 --- 26 Dec --- Scuba day in Moalboal
+
+**Overview.** One sea day only, chosen after a direct discussion with a qualified dive centre.
+
+### Plan
+
+-   Choose a program that matches your certification, experience, medical fitness, and the day’s conditions. If you are not already certified, ask a dive centre what introductory option is appropriate; do not assume a particular course or dive profile.
+-   Keep the afternoon quiet: lunch, a nap, gear rinse, and an easy dinner. No second tour is planned.
+-   A PADI-listed Moalboal centre is a **candidate**, not an availability claim; confirm staff, equipment, pickup, inclusions, insurance requirements, and conditions directly before booking.
+
+### Avoid
+
+-   Booking flights or another strenuous water activity this evening.
+-   Treating sea life, visibility, a particular site, or a dive programme as guaranteed.
+
+### What to take care of
+
+-   Complete the centre’s own medical and training checks honestly. Confirm the certified guide/instructor, dive plan, weather and sea assessment, equipment, and post-dive flying guidance. The 27 December El Nido flight is contingent on that advice.
+
+### Source
+
+-   **Verified:** Cebu Tourism presents a Moalboal dive itinerary; [Amigos Dive Center’s PADI listing](https://www.padi.com/dive-center/philippines/amigos-dive-center-2/?lang=en) identifies it as a PADI Five Star centre in Moalboal. Availability, suitability, and post-dive flight clearance are unverified. Sources accessed 6 October 2026.
+
+------------------------------------------------------------------------
+
+## Day 4 --- 27 Dec --- Moalboal → Cebu → El Nido
+
+**Overview.** Transfer to El Nido only after the dive centre clears the flight connection.
+
+### Plan
+
+-   Follow the dive centre’s post-dive flying guidance before taking the ticketed Cebu–El Nido flight. If the centre does not clear the connection, do not assume the flight is safe; confirm the alternative with the carrier and operator.
+-   Return to Mactan-Cebu Airport using the confirmed road transfer and take Cebu–El Nido only on the issued ticket.
+-   Check into an El Nido **candidate** stay and do no boat activity. Dinner and an early night are enough.
+
+### Avoid
+
+-   Booking this flight before the dive centre confirms the post-dive interval is suitable.
+-   Booking a Tour A departure on the transfer day.
+
+### What to take care of
+
+-   Confirm the dive centre’s advice, every flight segment, baggage allowance, road transfer, airport pickup, room availability, and Tour A weather/cancellation policy.
+
+### Source
+
+-   **Verified:** Cebu Pacific’s CEB airport guide listed Cebu–El Nido service when checked. **Unverified:** the 27 December flight number, time, fare, availability, connection and post-dive clearance. [Cebu Pacific CEB guide](https://help.cebupacificair.com/article/cebu-travel-guide-mactan-cebu-international-airport-ceb-211355), accessed 6 October 2026.
+
+------------------------------------------------------------------------
+
+## Day 5 --- 28 Dec --- El Nido recovery day
+
+**Overview.** Recovery after the scuba-to-flight transfer; no boat activity.
+
+### Plan
+
+-   Sleep in, eat slowly, and keep the day close to the confirmed El Nido accommodation.
+-   Use the time for a pool, café, massage, reading, or absolutely nothing. These are **suggestions**, not verified venue claims.
+-   Reconfirm Tour A, permits, weather policy, and pickup for tomorrow.
+
+### Avoid
+
+-   Adding a second boat tour, long road outing, or strenuous activity after the transfer.
+-   Treating a booked Tour A as guaranteed if the operator changes its plan for weather or access.
+
+### What to take care of
+
+-   Confirm the El Nido candidate room, Tour A operator, exact stops, cancellation terms, and any lagoon requirements.
+
+### Source
+
+-   **Suggestion:** this recovery day is a pacing choice after the 27 December transfer. No venue or operating-hour claim is made.
+
+------------------------------------------------------------------------
+
+## Day 6 --- 29 Dec --- El Nido Tour A
+
+**Overview.** The trip’s only fixed island-hopping day: the classic lagoon route.
+
+### Plan
+
+-   Book only Tour A, with a local operator that confirms its current stop list, permits, equipment, weather call, and cancellation policy.
+-   Philippines Tourism describes Tour A as the lagoons-and-icons route and names Big Lagoon, Secret Lagoon, Payong-Payong Beach, and Seven Commandos Beach among its highlights. Treat the actual itinerary as the operator’s confirmation, not this plan.
+-   Return to town and keep the evening simple. Tomorrow stays empty by design.
+
+### Avoid
+
+-   Adding Tour C or another full boat trip to the following day.
+-   Assuming every published stop is open or included on the day.
+
+### What to take care of
+
+-   Confirm permits, exact stops, life vests, kayaking requirements, swimming expectations, lunch, weather policy, and the operator’s pick-up instructions.
+
+### Source
+
+-   **Verified:** [Love Philippines: El Nido Island Hopping](https://philippines.travel/activities/el-nido-island-hopping/index) describes the standard tour system and Tour A highlights. Stops and operating conditions for 29 December are unverified. Accessed 6 October 2026.
+
+------------------------------------------------------------------------
+
+## Day 7 --- 30 Dec --- El Nido, slow day
+
+**Overview.** A second recovery day before New Year’s Eve, with no fixed excursion.
+
+### Plan
+
+-   Keep a late breakfast, a relaxed hotel day, and one unhurried meal as the only planned movements.
+-   Choose a beach, café, massage, or town walk only if it feels easy. These are suggestions, not verified venue claims.
+-   Use the evening to confirm the New Year’s Eve dinner, return transport, and hotel policy.
+
+### Avoid
+
+-   Adding another full boat tour after Tour A.
+-   Relying on an unconfirmed public programme or assuming a venue is open.
+
+### What to take care of
+
+-   Confirm the dinner reservation, venue hours, transport plan, and any holiday changes directly.
+
+### Source
+
+-   **Suggestion:** the slow day is a pacing choice after Tour A. Venue, programme, holiday hours, availability, and transport details are unverified until confirmed directly.
+
+------------------------------------------------------------------------
+
+## Day 8 --- 31 Dec --- El Nido, slow into New Year’s Eve
+
+**Overview.** A blank day with a pre-booked evening, not a second excursion.
+
+### Plan
+
+-   Late breakfast, a relaxed hotel day, and one unhurried meal are the only planned movements.
+-   Choose a restaurant or hotel New Year programme only after it confirms its menu, booking terms, transport plan, and cancellation policy directly.
+-   Stay close to the confirmed accommodation after dark if that is the less stressful option.
+
+### Avoid
+
+-   Boat tours, a long road outing, or relying on an unconfirmed public countdown.
+
+### What to take care of
+
+-   Confirm the hotel’s New Year policy, the dinner reservation, how you get back, and any changes caused by weather.
+
+### Source
+
+-   **Suggestion:** the restful shape is intentional. All venue, programme, holiday hours, availability, and transport details are unverified until confirmed directly.
+
+------------------------------------------------------------------------
+
+## Day 9 --- 1 Jan --- El Nido → Manila buffer night
+
+**Overview.** Leave El Nido early enough to absorb a disruption; the Manila night is the buffer, not a sightseeing day.
+
+### Plan
+
+-   Use a protected, ticketed route that gets you to the Manila hotel with the 2 January international flight still a separate day. Do not build a self-transfer that needs everything to run exactly on time.
+-   Cebu Pacific says Cebgo and AirSWIFT flights to/from El Nido were moved away from NAIA to Clark, so do not assume an El Nido–NAIA nonstop. Whether the booked path uses Cebu, Clark, or another valid connection is **unverified** until ticketed.
+-   Once in Manila, check into an airport-area **candidate** hotel, eat nearby, and stop.
+
+### Avoid
+
+-   Intramuros, shopping, or a late cross-city errand.
+-   Combining this domestic journey with the Bengaluru flight on the same day.
+
+### What to take care of
+
+-   Confirm the full flight path, connection protection, terminals, baggage, airport/hotel transfer, and the property’s late-arrival policy.
+
+### Source
+
+-   **Verified:** Cebu Pacific’s notice says El Nido Cebgo/AirSWIFT services were transferred from NAIA to Clark. [Cebu Pacific flight-transfer notice](https://help.cebupacificair.com/article/transfer-of-cebgo-dg-and-air-swift-t-220100), accessed 6 October 2026. Exact 1 January routing is unverified.
+
+------------------------------------------------------------------------
+
+## Day 10 --- 2 Jan --- Manila → Bengaluru
+
+**Overview.** International departure only.
+
+### Plan
+
+-   Use the airport transfer confirmed with the hotel and travel on the actual international ticket. The provided return option is Thai Airways: Manila 17:15 on 2 January → Bengaluru 00:05 on 3 January, 1 stop BKK, shown duration 9h 20m.
+-   Keep the day for check-in, baggage, terminal confirmation, and the flight home.
+
+### Avoid
+
+-   Adding a domestic connection, a distant meal, or an errand postponed from Cebu or El Nido.
+
+### What to take care of
+
+-   Reconfirm the departure terminal, baggage allowance, check-in requirements, and transfer the day before.
+
+### Source
+
+-   **Unverified user-provided option:** Thai Airways, MNL 17:15 on 2 January → BLR 00:05 on 3 January, 1 stop BKK, shown duration 9h 20m. Confirm flight number, terminal, baggage, fare, availability, and schedule before booking.
+
+------------------------------------------------------------------------
+
+### Booking order for this itinerary
+
+1.  Confirm the provided outbound and return flight options, with Bengaluru departure on 23 December night, Cebu arrival on 24 December, Manila departure on 2 January, and Bengaluru arrival on 3 January.
+2.  Flexible Moalboal, El Nido, and Manila **candidate** accommodation, especially the New Year nights.
+3.  The actual Cebu → El Nido and El Nido → Manila-area flight paths, including transfer protection and baggage conditions.
+4.  A compliant canyoneering operator and one dive centre after suitability is confirmed.
+5.  El Nido Tour A and the New Year dinner, both with written cancellation/weather terms.
+
+### Why this is the no-rush version
+
+**Suggestion.** There are two committed high-energy days back-to-back: canyoneering and scuba. The plan then gives El Nido a recovery day after the transfer, one rather than multiple boat days, a second slow day before New Year’s Eve, and 1 January as the Manila exit buffer. Choose this when those priorities matter more than separating the two Moalboal activities.
+
+------------------------------------------------------------------------
+
 There are three strong ways to structure a 10-day Philippines holiday
 around Christmas and New Year:
 
